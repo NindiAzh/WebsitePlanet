@@ -65,14 +65,31 @@ input[type="radio"] {
 @media (max-width: 768px) {
     ul li {
         display: block;
-    }
-    #container {
-        margin-right: 75px;
-    }
-    ul li {
         margin: 5px;
     }
+    #container {
+        margin: 100px auto;
+        margin-right: 55px;
+        width: 85%;
+    }
     .button {
-        margin: 0 10px 0 5px;
+        margin: 0 20px 0 10px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    ul li {
+        display: block;
+        margin: 5px;
+    }
+    #container {
+        margin: 100px auto;
+        margin-right: 55px;
+        width: 85%;
+    }
+    .button {
+        margin: 0 20px 0 10px;
+        width: 80px;
     }
 }
